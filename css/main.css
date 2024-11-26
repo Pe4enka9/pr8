@@ -1,0 +1,65 @@
+body {
+    background-color: #f7f6ff;
+}
+
+.header-vr {
+    width: 2px;
+    height: 40px;
+    background-color: #000;
+    opacity: 1;
+}
+
+.logo {
+    width: 52px;
+    height: 52px;
+}
+
+a {
+    color: #000;
+    display: block;
+}
+
+.photo {
+    height: 600px;
+}
+
+.nav-no-active {
+    color: #000;
+}
+
+.bg-pink {
+    background-color: #f32c6d;
+}
+
+.text-pink {
+    color: #f32c6d;
+}
+
+.bg-pink:hover {
+    background-color: #cb245a;
+}
+
+.bg-gray {
+    background-color: #77b2d3;
+}
+
+.design-vr {
+    width: 2px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.list-p {
+    margin: .2rem;
+}
+
+.card {
+    height: 400px;
+}
+
+.card-my-title {
+    height: 70px;
+}
