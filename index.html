@@ -14,110 +14,112 @@
 <body>
 
 <div class="container">
-    <div class="row p-2 d-flex align-items-center bg-white rounded shadow-sm">
-        <div class="col-3 d-flex justify-content-between align-items-center">
+    <div class="row p-2 d-flex align-items-center justify-content-center bg-white rounded shadow-sm">
+        <div class="col-md-3 col-6 d-flex align-items-center fit-content">
             <img src="images/logo.png" alt="logo" class="logo">
-            <div class="d-flex justify-content-center">
-                <div class="vr header-vr"></div>
+            <div class="d-flex justify-content-center mx-1">
+                <div class="vr header-vr d-none d-md-block"></div>
             </div>
-            <div class="d-flex align-items-center">
-                <a href="index.html" class="fs-1 text link-underline link-underline-opacity-0">sensei media</a></div>
+            <div>
+                <a href="index.html" class="fs-1 text link-underline link-underline-opacity-0">sensei media</a>
+            </div>
         </div>
 
-        <div class="col-6 d-flex justify-content-center">
+        <div class="col-md-6 col-12 d-flex justify-content-center">
             <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Главная</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link nav-no-active" href="#">Услуги</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link nav-no-active" href="#">Наши работы</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link nav-no-active" href="#">Контакты</a>
-                            </li>
-                        </ul>
-                    </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item"><a class="nav-link" href="#">Главная</a></li>
+                        <li class="nav-item"><a class="nav-link nav-no-active" href="#">Услуги</a></li>
+                        <li class="nav-item"><a class="nav-link nav-no-active" href="#">Наши работы</a></li>
+                        <li class="nav-item"><a class="nav-link nav-no-active" href="#">Контакты</a></li>
+                    </ul>
                 </div>
             </nav>
         </div>
 
-        <div class="col-3 d-flex justify-content-end">
+        <div class="col-md-3 col-12 d-flex justify-content-center justify-content-md-end">
             <a href="#" class="btn bg-pink text-white btn-outline-primary">Заказать звонок</a>
         </div>
     </div>
 
-    <div class="row d-flex align-items-center">
-        <div class="col-4">
+    <div class="row d-flex align-items-center my-4">
+        <div class="col-md-4 col-12 text-center text-md-start">
             <h2 class="fs-3 text">Студия дизайна</h2>
             <h3 class="fs-1 text text-uppercase">Полного цикла</h3>
             <p>От дизайна визиток до дизайна сайтов</p>
-
-            <div class="d-flex gap-2 mt-5">
+            <div class="d-flex gap-2 mt-5 flex-wrap justify-content-center justify-content-md-start">
                 <div class="py-2 px-3 text-white rounded-5 bg-gray">Комплексные решения</div>
                 <div class="py-2 px-3 text-white rounded-5 bg-gray">Логотипы</div>
                 <div class="py-2 px-3 text-white rounded-5 bg-gray">Дизайн</div>
             </div>
         </div>
-
-        <div class="col-8 d-flex justify-content-center">
-            <img src="images/photo.svg" alt="photo" class="photo">
+        <div class="col-md-8 col-12 d-flex justify-content-center">
+            <img src="images/photo.svg" alt="photo" class="img-fluid">
         </div>
     </div>
 
     <div class="row p-3 bg-white rounded-5 shadow-sm">
-        <h4 class="fs-1 text text-uppercase mb-3">Мы знаем толк в дизайне!</h4>
+        <h4 class="fs-1 text text-uppercase mb-3 text-center text-md-start">Мы знаем толк в дизайне!</h4>
 
-        <div class="row">
-            <div class="col-2 d-flex justify-content-between">
+        <div class="row align-items-center text-center text-md-start position-relative">
+            <div class="col-md-3 col-6 mb-4 mb-md-0 d-flex flex-column align-items-center align-items-md-start">
                 <div>
                     <div class="fs-1 text text-pink">6 лет</div>
                     <p>В сфере рекламы</p>
                 </div>
-                <div class="vr design-vr"></div>
             </div>
 
+            <div class="d-none d-md-block vr design-vr position-absolute p-0"
+                 style="height: 100%; top: 0; left: 25%; transform: translateX(-50%);"></div>
 
-            <div class="col-4 d-flex justify-content-end gap-5">
+            <div class="col-md-3 col-6 mb-4 mb-md-0 d-flex flex-column align-items-center align-items-md-start">
                 <div>
-                    <div class="fs-1 text text-pink">более 100</div>
+                    <div class="fs-1 text text-pink">Более 100</div>
                     <p>Наших постоянных клиентов</p>
                 </div>
-                <div class="vr design-vr"></div>
             </div>
 
+            <div class="d-none d-md-block vr design-vr position-absolute p-0"
+                 style="height: 100%; top: 0; left: 50%; transform: translateX(-50%);"></div>
 
-            <div class="col-4 d-flex justify-content-end gap-5">
+            <div class="col-md-3 col-6 mb-4 mb-md-0 d-flex flex-column align-items-center align-items-md-start">
                 <div>
                     <div class="fs-1 text text-pink">+20%</div>
                     <p>Конверсия продаж</p>
                 </div>
-                <div class="vr design-vr"></div>
             </div>
 
+            <div class="d-none d-md-block vr design-vr position-absolute p-0"
+                 style="height: 100%; top: 0; left: 75%; transform: translateX(-50%);"></div>
 
-            <div class="col-2 d-flex flex-column align-items-end">
-                <div class="fs-1 text text-pink">-70%</div>
-                <p>Ошибок менеджеров</p>
+            <div class="col-md-3 col-6 d-flex flex-column align-items-center align-items-md-start">
+                <div>
+                    <div class="fs-1 text text-pink">-70%</div>
+                    <p>Ошибок менеджеров</p>
+                </div>
             </div>
         </div>
     </div>
 
+
     <h4 class="my-3 fs-1 text text-uppercase">Наши услуги</h4>
-    <div class="row mb-5">
+    <div class="row row-cols-1 row-cols-md-5 g-4">
         <div class="col">
             <div class="card rounded-4 shadow">
-                <div class="p-3 text-uppercase text-center text-white bg-gray rounded-top-4 card-my-title d-flex align-items-center justify-content-center">
-                    Рекламные
+                <div class="p-3 text-uppercase text-center text-white bg-gray rounded-top-4 card-my-title">Рекламные
                     материалы
                 </div>
                 <div class="card-body">
                     <ul class="d-flex flex-column">
+                        <li class="d-flex align-items-center gap-1">
+                            <i class="bi bi-check-circle-fill text-pink"></i>
+                            <p class="list-p">Верстка макетов</p>
+                        </li>
                         <li class="d-flex align-items-center gap-1">
                             <i class="bi bi-check-circle-fill text-pink"></i>
                             <p class="list-p">Верстка макетов</p>
@@ -140,21 +142,17 @@
                         </li>
                     </ul>
                 </div>
-
                 <hr class="m-0">
-
                 <div class="d-flex justify-content-center align-items-center">
                     <p class="m-0 fs-2 text text-secondary">от <span class="fs-1 text text-pink">2000 руб.</span></p>
                 </div>
             </div>
-
             <a href="#" class="mt-3 w-100 btn bg-pink text-white btn-outline-primary">Подробнее</a>
         </div>
 
         <div class="col">
             <div class="card rounded-4 shadow">
-                <div class="p-3 text-uppercase text-center text-white bg-gray rounded-top-4 card-my-title d-flex align-items-center justify-content-center">
-                    Бренд
+                <div class="p-3 text-uppercase text-center text-white bg-gray rounded-top-4 card-my-title">Бренд
                     дизайн
                 </div>
                 <div class="card-body">
@@ -181,21 +179,17 @@
                         </li>
                     </ul>
                 </div>
-
                 <hr class="m-0">
-
                 <div class="d-flex justify-content-center align-items-center">
                     <p class="m-0 fs-2 text text-secondary">от <span class="fs-1 text text-pink">3000 руб.</span></p>
                 </div>
             </div>
-
             <a href="#" class="mt-3 w-100 btn bg-pink text-white btn-outline-primary">Подробнее</a>
         </div>
 
         <div class="col">
             <div class="card rounded-4 shadow">
-                <div class="p-3 text-uppercase text-center text-white bg-gray rounded-top-4 card-my-title d-flex align-items-center justify-content-center">
-                    Дизайн
+                <div class="p-3 text-uppercase text-center text-white bg-gray rounded-top-4 card-my-title">Дизайн
                     вывесок и рекламы
                 </div>
                 <div class="card-body">
@@ -214,21 +208,17 @@
                         </li>
                     </ul>
                 </div>
-
                 <hr class="m-0">
-
                 <div class="d-flex justify-content-center align-items-center">
                     <p class="m-0 fs-2 text text-secondary">от <span class="fs-1 text text-pink">3000 руб.</span></p>
                 </div>
             </div>
-
             <a href="#" class="mt-3 w-100 btn bg-pink text-white btn-outline-primary">Подробнее</a>
         </div>
 
         <div class="col">
             <div class="card rounded-4 shadow">
-                <div class="p-3 text-uppercase text-center text-white bg-gray rounded-top-4 card-my-title d-flex align-items-center justify-content-center">
-                    Digital
+                <div class="p-3 text-uppercase text-center text-white bg-gray rounded-top-4 card-my-title">Digital
                     дизайн
                 </div>
                 <div class="card-body">
@@ -247,22 +237,17 @@
                         </li>
                     </ul>
                 </div>
-
                 <hr class="m-0">
-
                 <div class="d-flex justify-content-center align-items-center">
                     <p class="m-0 fs-2 text text-secondary">от <span class="fs-1 text text-pink">5000 руб.</span></p>
                 </div>
             </div>
-
             <a href="#" class="mt-3 w-100 btn bg-pink text-white btn-outline-primary">Подробнее</a>
         </div>
 
         <div class="col">
             <div class="card rounded-4 shadow">
-                <div class="p-3 text-uppercase text-center text-white bg-gray rounded-top-4 card-my-title d-flex align-items-center justify-content-center">
-                    SMM
-                </div>
+                <div class="p-3 text-uppercase text-center text-white bg-gray rounded-top-4 card-my-title">SMM</div>
                 <div class="card-body">
                     <ul class="d-flex flex-column">
                         <li class="d-flex align-items-center gap-1">
@@ -287,111 +272,96 @@
                         </li>
                     </ul>
                 </div>
-
                 <hr class="m-0">
-
                 <div class="d-flex justify-content-center align-items-center">
                     <p class="m-0 fs-2 text text-secondary">от <span class="fs-1 text text-pink">1500 руб.</span></p>
                 </div>
             </div>
-
-            <a href="#" class="mt-3 w-100 btn bg-pink text-white btn-outline-primary btn-outline-primary">Подробнее</a>
+            <a href="#" class="mt-3 w-100 btn bg-pink text-white btn-outline-primary">Подробнее</a>
         </div>
     </div>
 
-    <div class="row d-flex align-items-center">
-        <div class="col-4">
+    <div class="row d-flex align-items-center my-5">
+        <div class="col-lg-4 col-12 text-center text-lg-start">
             <h4 class="fs-1 text text-uppercase">Заказать консультацию специалиста</h4>
-            <p>Заполните форму и мы свяжемся с вами в ближайшее время!</p>
+            <p>Заполните форму, и мы свяжемся с вами в ближайшее время!</p>
 
             <form action="">
                 <div class="row">
-                    <div class="col">
-                        <div class="mb-3">
-                            <input type="text" name="name" id="name" class="form-control is-invalid"
-                                   placeholder="Ваше имя">
-                        </div>
-
-                        <div class="mb-3">
-                            <textarea name="question" id="question" class="form-control is-invalid"
-                                      placeholder="Ваш вопрос"></textarea>
-                        </div>
+                    <div class="col-12 mb-3">
+                        <input type="text" name="name" id="name" class="form-control is-invalid" placeholder="Ваше имя">
                     </div>
-
-                    <div class="col">
+                    <div class="col-12 mb-3">
                         <input type="tel" name="tel" id="tel" class="form-control is-invalid"
                                placeholder="Номер вашего телефона">
+                    </div>
+                    <div class="col-12 mb-3">
+                        <textarea name="question" id="question" class="form-control is-invalid"
+                                  placeholder="Ваш вопрос"></textarea>
                     </div>
                 </div>
 
                 <div class="form-check mb-3">
                     <input type="checkbox" name="agree" id="agree" class="form-check-input is-valid">
-                    <label for="agree" class="form-check-label is-valid">Я согласен с условиями обработки
-                        персональных
-                        данных</label>
+                    <label for="agree" class="form-check-label is-valid">
+                        Я согласен с условиями обработки персональных данных
+                    </label>
                 </div>
 
-                <input type="submit" value="Отправить" class="btn bg-pink text-white btn-outline-primary">
+                <input type="submit" value="Отправить" class="btn bg-pink text-white btn-outline-primary w-100">
             </form>
         </div>
 
-        <div class="col-8 d-flex justify-content-center">
-            <img src="images/photo2.svg" alt="photo2" class="w-75">
+        <div class="col-lg-8 col-12 d-flex justify-content-center">
+            <img src="images/photo2.svg" alt="photo2" class="img-fluid">
         </div>
     </div>
 
     <div class="row pt-5 px-4 bg-white">
-        <div class="col-3">
-            <div class="mb-3 d-flex justify-content-between align-items-center">
+        <div class="col-md-3 col-12 mb-4">
+            <div class="d-flex align-items-center justify-content-between">
                 <img src="images/logo.png" alt="logo" class="logo">
-                <div class="d-flex justify-content-center">
-                    <div class="vr header-vr"></div>
+                <div class="d-flex justify-content-center mx-1">
+                    <div class="vr header-vr d-none d-md-block"></div>
                 </div>
-                <div class="d-flex align-items-center">
+                <div>
                     <a href="index.html" class="fs-1 text link-underline link-underline-opacity-0">sensei media</a>
                 </div>
             </div>
-
-            <div>&copy; 2022</div>
+            <div class="mt-2">&copy; 2022</div>
         </div>
 
-        <div class="col-3 d-flex flex-column align-items-end">
-            <div>
-                <h6 class="fs-5 text">Section</h6>
-                <nav class="nav flex-column">
-                    <a class="nav-link text-secondary px-0" href="#">Home</a>
-                    <a class="nav-link text-secondary px-0" href="#">Features</a>
-                    <a class="nav-link text-secondary px-0" href="#">Pricing</a>
-                    <a class="nav-link text-secondary px-0" href="#">FAQs</a>
-                    <a class="nav-link text-secondary px-0" href="#">About</a>
-                </nav>
-            </div>
+        <div class="col-md-3 col-6 mb-4 d-md-flex flex-md-column align-items-end">
+            <h6 class="fs-5 text">Section</h6>
+            <nav class="nav flex-column">
+                <a class="nav-link text-secondary px-0" href="#">Home</a>
+                <a class="nav-link text-secondary px-0" href="#">Features</a>
+                <a class="nav-link text-secondary px-0" href="#">Pricing</a>
+                <a class="nav-link text-secondary px-0" href="#">FAQs</a>
+                <a class="nav-link text-secondary px-0" href="#">About</a>
+            </nav>
         </div>
 
-        <div class="col-3 d-flex flex-column align-items-end">
-            <div>
-                <h6 class="fs-5 text">Section</h6>
-                <nav class="nav flex-column">
-                    <a class="nav-link text-secondary px-0" href="#">Home</a>
-                    <a class="nav-link text-secondary px-0" href="#">Features</a>
-                    <a class="nav-link text-secondary px-0" href="#">Pricing</a>
-                    <a class="nav-link text-secondary px-0" href="#">FAQs</a>
-                    <a class="nav-link text-secondary px-0" href="#">About</a>
-                </nav>
-            </div>
+        <div class="col-md-3 col-6 mb-4 d-md-flex flex-md-column align-items-end">
+            <h6 class="fs-5 text">Section</h6>
+            <nav class="nav flex-column">
+                <a class="nav-link text-secondary px-0" href="#">Home</a>
+                <a class="nav-link text-secondary px-0" href="#">Features</a>
+                <a class="nav-link text-secondary px-0" href="#">Pricing</a>
+                <a class="nav-link text-secondary px-0" href="#">FAQs</a>
+                <a class="nav-link text-secondary px-0" href="#">About</a>
+            </nav>
         </div>
 
-        <div class="col-3 d-flex flex-column align-items-end">
-            <div>
-                <h6 class="fs-5 text">Section</h6>
-                <nav class="nav flex-column">
-                    <a class="nav-link text-secondary px-0" href="#">Home</a>
-                    <a class="nav-link text-secondary px-0" href="#">Features</a>
-                    <a class="nav-link text-secondary px-0" href="#">Pricing</a>
-                    <a class="nav-link text-secondary px-0" href="#">FAQs</a>
-                    <a class="nav-link text-secondary px-0" href="#">About</a>
-                </nav>
-            </div>
+        <div class="col-md-3 col-6 mb-4 d-md-flex flex-md-column align-items-end">
+            <h6 class="fs-5 text">Section</h6>
+            <nav class="nav flex-column">
+                <a class="nav-link text-secondary px-0" href="#">Home</a>
+                <a class="nav-link text-secondary px-0" href="#">Features</a>
+                <a class="nav-link text-secondary px-0" href="#">Pricing</a>
+                <a class="nav-link text-secondary px-0" href="#">FAQs</a>
+                <a class="nav-link text-secondary px-0" href="#">About</a>
+            </nav>
         </div>
     </div>
 </div>

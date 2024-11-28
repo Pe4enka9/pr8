@@ -45,6 +45,7 @@ a {
 
 .design-vr {
     width: 2px;
+    z-index: 1;
 }
 
 ul {
@@ -62,4 +63,8 @@ ul {
 
 .card-my-title {
     height: 70px;
+}
+
+.fit-content {
+    width: fit-content;
 }
